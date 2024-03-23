@@ -1,0 +1,21 @@
+.Main {
+    margin-top: 50px;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Main > h1 {
+    font-size: 1.2rem;
+    color: var(--SubGray);
+}
+
+.Status {
+    height: 140px;
+    background-color: var(--StatusBackground);
+    border-radius: 5px;
+}

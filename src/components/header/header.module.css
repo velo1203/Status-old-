@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.LogoSection {
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+    color: var(--SubGray);
+}
+.Logo {
+    color: var(--MainColor);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.Setting {
+    color: var(--SubGray);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.SettingSection {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--SubGray);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.SettingSection:hover,
+.LogoSection:hover {
+    opacity: 0.8;
+}
